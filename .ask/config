@@ -1,0 +1,43 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.b5d8c6ec-a0e2-49eb-914f-caa212642100",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-donald-trump-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "238112424ca70b140ea9a3cda1b3cf12"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "45bc94654ca69c48ced240667d4b1ddb"
+          },
+          "en-GB": {
+            "eTag": "8c9c29312b5ddd11151b005735d59ac6"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:004125653936:function:ask-custom-donald-trump-default",
+            "functionName": "arn:aws:lambda:us-east-1:004125653936:function:ask-custom-donald-trump-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "c8dc6cdb-cddf-429c-a18f-1aada744c408"
+          }
+        ]
+      }
+    }
+  }
+}

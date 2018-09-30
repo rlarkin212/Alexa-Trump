@@ -1,0 +1,42 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "donald quote",
+        "types": [
+  
+        ],
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": [
+  
+            ]
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": [
+  
+            ]
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": [
+  
+            ]
+          },
+          {
+            "name": "GetQuoteIntent",
+            "slots": [
+  
+            ],
+            "samples": [
+              "donald quote",
+              "give me a trump quote",
+              "donald trummp quote"
+            ]
+          }
+        ]
+      }
+    }
+  }
+  
